@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>EasyCar</title>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind.config.js"></script>
+</head>
+
+<body class="bg-cover bg-slate-200">
+    <section id="home">
+        <header class="flex items-center justify-between px-10 lg:px-30 bg-cover bg-center bg-no-repeat "
+            style="background-image: url('assets/images/bannerbg.jpeg');">
+            <span class="flex justify-between">
+                <img class="max-h-26 w-36" alt="Logotipo da EasyCar" src="assets/images/logoeasycar.jpg">
+            </span>
+
+            <nav>
+                <a class="top-bar-navigation" href="#">Home</a>
+                <a class="top-bar-navigation" href="#">Registro</a>
+                <a class="top-bar-navigation" href="#">Login</a>
+                <a class="top-bar-navigation" href="#">Pesquisa</a>
+            </nav>
+        </header>
+
+        <main class="flex flex-col px-16 lg:px-16">
+            <section class="flex flex-col bg-yellow-400 px-5 lg:px-5">
+                <div class="mb-4 max-w-2xl mx-auto bg-black p-6 rounded-lg shadow-lg flex">
+                    <div class="w-3/7 pr-2">
+                        <label for="retirada" class="block text-white font-semibold mb-2">Local da Retirada:</label>
+                        <input type="text" id="retirada" name="retirada"
+                            class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+                            placeholder="Digite o local da Retirada">
+                    </div>
+                    <div class="w-2/7 pl-2 pr-2">
+                        <label for="data" class="block text-white font-semibold mb-2">Data:</label>
+                        <input type="date" id="data" name="data"
+                            class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+                            placeholder="Data">
+                    </div>
+                    <div class="w-2/7 pl-2">
+                        <label for="time" class="block text-white font-semibold mb-2">Hora:</label>
+                        <input type="time" id="hora" name="hora"
+                            class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+                            placeholder="Hora">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Cards -->
+            <section class="flex flex-col md:flex-row gap-4">
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo elétricos
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupoeletrico.jpg" alt="Veiculo eletrico, branco, quatro portas, chevrolet e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Confira nossa lista de carros elétricos completos. Desfrute do conforto do ar condicionado, tecnologia avançada, 
+                        baixa manutenção e uma condução silenciosa, enquanto contribui para um futuro mais sustentável.
+                    </p>
+        <div class="p-8 rounded-md text-yellow-500 bg-gray-600 text-lg hover:bg-gray-900 text-center">
+            <a href="#">
+                15-45% Off em todos os planos com seus EasyPoints!
+            </a>
+        </div>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo compactos
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupoge.png" alt="Veiculo compacto, cinza chumbo, quatro portas, Fiat e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Utilize de nossos carros compactos. Desfrute do ar-condicionado, economia de combustível, baixa manutenção 
+                        e condução ágil, tornando suas viagens mais práticas e econômicas.
+                    </p>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo suv
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/gruposuv.png" alt="Veiculo SUV, prata, 4 portas, Hyundai e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Confira nossa lista de SUVs. Aproveite o espaço amplo, conforto do ar-condicionado, segurança avançada e 
+                        versatilidade, proporcionando viagens mais espaçosas e seguras para sua família.
+                    </p>
+        <div class="p-8 rounded-md text-yellow-500 bg-gray-600 text-lg hover:bg-gray-900 text-center">
+            <a href="#">
+                Até 20% Off com seus EasyPoints!
+            </a>
+        </div>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo executivo
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupoexecutivo.png" alt="Veiculo executivo, branco, 4 portas, Nissan e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Confira nossa lista de carros executivos blindados. Experimente o luxo, a proteção máxima, a tecnologia 
+                        de ponta e a discrição, garantindo viagens seguras e elegantes para satisfazer todas as suas necessidades corporativas.
+                    </p>
+        <div class="p-8 rounded-md text-yellow-500 bg-gray-600 text-lg hover:bg-gray-900 text-center">
+            <a href="#">
+                Até 30% Off nas locações diárias com seus EasyPoints!
+            </a>
+        </div>
+                </figure>
+            </section>
+            <section class="flex flex-col md:flex-row gap-4">
+                
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo suv elite
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupose.png" alt="Veiculo SUV ELITE, 4 portas, cinza chumbo, vidros escuros e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Explore nossa seleção de SUVs de elite. Desfrute do requinte, do conforto incomparável, da tecnologia de última 
+                        geração e do desempenho superior, proporcionando viagens luxuosas e inigualáveis.
+                    </p>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo van
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupovan.png" alt="Veiculo VAN, branca, Renault e com a placa EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Descubra nossa gama de vans. Aproveite o espaço generoso, versatilidade, conforto com ar-condicionado e 
+                        capacidade de transporte, tornando as viagens em grupo mais convenientes e agradáveis.
+                    </p>
+                </figure>
+
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo minivan
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupominivan.png" alt="Veiculo minivan, 7 Lugares, prata, Fiat e com a placa da EASYCAR">
+                    <p class="text-white break-words p-4">
+                        Explore nossas minivans de 7 lugares. Desfrute do espaço versátil, acomodação para famílias maiores, 
+                        conforto com ar-condicionado e conveniência, garantindo viagens para grupos grandes de forma prática e confortável.
+                    </p>
+                </figure>
+                <!-- Card -->
+                <figure class="flex flex-col bg-black shadow-md rounded-md pb-10 transition-transform transform hover:scale-105 md:w-1/4">
+                    <figcaption class="text-md text-white text-3xl capitalize text-center py-4">
+                        grupo pick-up
+                    </figcaption>
+                    <img class="h-60 max-h-98 hover:max-h-screen object-cover max-w-1/4 mb-6"
+                        src="assets/images/grupopickup.png" alt="Veiculo pick-up, cinza chumbo, Fiat e com a placa logo EasyCar">
+                    <p class="text-white break-words p-4">
+                        Conheça nossas pickups. Desfrute da versatilidade, capacidade de carga, durabilidade e estilo robusto, tornando suas
+                         necessidades de transporte e aventura uma experiência sem igual.
+                    </p>
+                    <div class="p-8 rounded-md text-yellow-500 bg-gray-600 text-lg hover:bg-gray-900 text-center">
+                        <a href="#">
+                            Até 50% Off na locação mensal com seus EasyPoints!
+                        </a>
+                    </div>
+                </figure>
+            </section>
+            <!-- Banner -->
+            <section class="mb-20 mt-5 rounded-md bg-cover bg-center bg-no-repeat px-10 lg:px-10"
+                style="background-image: url('assets/images/bannerfidelidade.jpeg')">
+                <div class="flex flex-col p-3 w-full">
+                    <h1 class="flex justify-center w-full text-slate-900 text-5xl font-oswald text-white">
+                        Promoções especiais, com seus EasyPoints!
+                    </h1>
+                    <h2 class="text-slate-900 text-3xl font-oswald pb-10 text-center text-white">
+                        Economize tempo e dinheiro, alugando carros com eficiência e mais preços acessíveis
+utilizando seus pontos de fidelidade EASYCAR!
+                    </h2>
+                    <a class="flex p-4 rounded-md text-white bg-yellow-400 text-lg hover:bg-black w-36 justify-center align-items"
+                        href="#">
+                        Saiba mais
+                    </a>
+                </div>
+            </section>
+        </main>
+    </section>
+</body>
+
+</html>

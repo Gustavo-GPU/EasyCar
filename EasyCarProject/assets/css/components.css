@@ -1,0 +1,15 @@
+.top-bar-navigation{
+    color: white;
+    text-align: right;
+    top: 0;
+    right: 0;
+    transition: background-color 0.3s; 
+    gap: 0.3rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.top-bar-navigation:hover {
+    background-color: #eeff00; 
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
